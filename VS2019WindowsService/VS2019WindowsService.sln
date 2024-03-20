@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34601.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VS2019WindowsService", "VS2019WindowsService.csproj", "{15ADE9D1-91C7-4E02-8CBA-2025AB530E4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15ADE9D1-91C7-4E02-8CBA-2025AB530E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15ADE9D1-91C7-4E02-8CBA-2025AB530E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15ADE9D1-91C7-4E02-8CBA-2025AB530E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15ADE9D1-91C7-4E02-8CBA-2025AB530E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA2D63CD-5329-487B-8C17-C547C6C7191A}
+	EndGlobalSection
+EndGlobal
