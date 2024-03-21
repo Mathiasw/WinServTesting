@@ -1,6 +1,6 @@
 ﻿namespace VS2017WindowsService
 {
-    partial class Service1
+    partial class VS2017_AMD_Service
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            this.ServiceName = "Service1";
+            this.eventLog1 = new System.Diagnostics.EventLog();
+            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
+            // 
+            // VS2017_AMD_Service
+            // 
+            this.ServiceName = "VS2017_AMD_Service";
+            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
+
         }
 
         #endregion
+
+        private System.Diagnostics.EventLog eventLog1;
     }
 }
