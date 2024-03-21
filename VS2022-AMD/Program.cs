@@ -17,7 +17,7 @@ namespace VS2022_AMD
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new Service1()
+                new VS2022_AMD_Service()
             };
             ServiceBase.Run(ServicesToRun);
         }

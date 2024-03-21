@@ -44,17 +44,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="VS2022-AMD-Service.cs">
+    <Compile Include="VS2022_AMD_Service.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="VS2022-AMD-Service.Designer.cs">
-      <DependentUpon>VS2022-AMD-Service.cs</DependentUpon>
+    <Compile Include="VS2022_AMD_Service.Designer.cs">
+      <DependentUpon>VS2022_AMD_Service.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="VS2022_AMD_Service.resx">
+      <DependentUpon>VS2022_AMD_Service.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
