@@ -1,7 +1,7 @@
 ﻿
 namespace VS2019WindowsService
 {
-    partial class Service1
+    partial class VS2019_Windows_Service
     {
         /// <summary> 
         /// Required designer variable.
@@ -29,10 +29,18 @@ namespace VS2019WindowsService
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.eventLog1 = new System.Diagnostics.EventLog();
+            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
+            // 
+            // VS2019_Windows_Service
+            // 
             this.ServiceName = "Service1";
+            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
+
         }
 
         #endregion
+
+        private System.Diagnostics.EventLog eventLog1;
     }
 }

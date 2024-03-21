@@ -17,7 +17,7 @@ namespace VS2019WindowsService
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new Service1()
+                new VS2019_Windows_Service()
             };
             ServiceBase.Run(ServicesToRun);
         }
